@@ -1,0 +1,88 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;}
+
+li, a, button{
+    font-family: "nike total 90 ";
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: teal;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+body{
+    background-image: url('f.jpg');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    font-family: url("Nike\ Total\ 90.ttf");
+    color: whitesmoke;
+  
+}
+
+  .box{
+      text-align: center;
+  }
+
+  .p1{
+      color: rgba(0,136,169,0.8);
+  }
+
+  .flexbox-conatainer{
+      display: flex;
+  }
+
+  .flexbox-item{
+      width: 400px;
+      margin: 30px;
+      border: 4px solid whitesmoke;
+      justify-content: center;
+      
+}
+
+.flexbox-item-1{min-height: 100px;}
+
+.flexbox-item-2{min-height: 100px;}
+
+.flexbox-item-3{min-height: 100px;}
+
+.flexbox-item-4{min-height: 100px;}
+
+.flexbox-item-5{min-height: 100px;}
+
